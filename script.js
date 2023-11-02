@@ -1,4 +1,4 @@
-    function showLoading() {
+function showLoading() {
       const searchButton = document.getElementById('searchButton');
       const loadingSpinner = document.getElementById('loadingSpinner');
       searchButton.disabled = true;
@@ -21,7 +21,7 @@
         alert('Please enter a movie name before searching.');
         return;
       }
-      
+
       showLoading();
 
       fetch(`https://api.yanzbotz.my.id/api/movie/layarkaca21?query=${query}`)
@@ -33,7 +33,7 @@
           data.result.forEach(movie => {
             const categories = movie.categories.map(category => `<span class="category-capsule">${category}</span>`).join(', ');
             const card = `
-                            <div class="col-3">
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                                 <div class="card">
                                     <img src="${movie.posterImage}" class="card-img-top" alt="${movie.title}">
                                     <div class="card-body">
