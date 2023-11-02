@@ -27,6 +27,7 @@
 
     .card {
       margin-top: 2rem;
+      padding: 10px;
     }
 
     .btn-search-spinner {
