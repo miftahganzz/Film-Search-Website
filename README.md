@@ -1,7 +1,7 @@
 # Film Search Website
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/miftahganzz/Whois-Website/134cc767949917d68f268524137add000676704c/mobile.png" alt="Film Search Screen Shot">
+  <img src="https://raw.githubusercontent.com/miftahganzz/Film-Search-Website/main/filmsearch.png" alt="Film Search Screen Shot">
 </p>
 
 <p align="center">
